@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YB MineSweeper</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="initGame()">
+    <h1>Welcome to Mine Sweeper!</h1>
+
+
+    <h4>Click the Smiley for Restart</h4>
+    <div onclick="initGame()" class="btn-container">
+
+
+    </div>
+    <button class="level" onclick="toggleLevel(4,2)">Beginner</button>
+    <button class="level" onclick="toggleLevel(8,12)">Medium</button>
+    <button class="level" onclick="toggleLevel(12,30)">Expert</button>
+    <div class="time">Timer will start when you start revealing</div>
+    <div class="my-best">Have fun</div>
+    <div class="hearts"></div>
+    <div class="game-container">
+
+    </div>
+    <div class="heart">
+
+    </div>
+
+
+
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
